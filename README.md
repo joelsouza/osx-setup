@@ -36,23 +36,25 @@ brew install postgresql
 brew install sqlite
 brew install mysql
 brew install redis
-brew install mongodb
-
-brew install asdf
-brew install ruby-build
-brew install php
-brew install python
+brew tap mongodb/brew
+brew install mongodb-community
 
 brew install tree
 brew install awscli
+brew tap heroku/brew
 brew install heroku
 brew install yarn
 brew install dnsmasq
 brew install httpd
 brew install zsh-syntax-highlighting
 brew install httpie
-```
+brew install imagemagick
 
+brew install asdf
+asdf plugin-add ruby                                                                                                                                                                         !199
+asdf plugin-add nodejs
+asdf plugin-add php
+```
 
 ### 4. Install softwares
 
@@ -63,6 +65,8 @@ Many softwares can be installed through
 process way simpler:
 
 ```sh
+brew tap homebrew/cask-versions
+
 # browsers
 brew cask install firefox-developer-edition
 brew cask install google-chrome-canary
@@ -91,9 +95,6 @@ brew cask install iterm2
 brew cask install alfred
 brew cask install appcleaner
 brew cask install spectacle
-brew cask install quicklook-csv
-brew cask install quicklook-json
-brew cask install webpquicklook
 brew cask install the-unarchiver
 brew cask install google-backup-and-sync
 brew cask install grammarly
@@ -104,6 +105,17 @@ brew cask install spotify
 brew cask install steam
 brew cask install vlc
 
+# quicklook plugins
+brew cask install qlcolorcode
+brew cask install qlstephen
+brew cask install qlmarkdown
+brew cask install quicklook-json
+brew cask install qlimagesize
+brew cask install webpquicklook
+brew cask install suspicious-package
+brew cask install quicklookase
+brew cask install qlvideo
+
 # messengers
 brew cask install discord
 brew cask install telegram
@@ -112,6 +124,7 @@ brew cask install slack
 brew cask install whatsapp
 
 # fonts
+brew tap homebrew/cask-fonts
 brew cask install font-hack
 brew cask install font-lato
 brew cask install font-noto-sans
@@ -126,7 +139,6 @@ brew cask install font-source-sans-pro
 ```
 
 ### 5. Borrow a few OSX settings from [mathiasbynens dotfiles](https://github.com/mathiasbynens/dotfiles)
-
 
 ```sh
 ###############################################################################
