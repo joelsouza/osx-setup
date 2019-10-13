@@ -22,7 +22,6 @@ xcode-select --install
 
 
 ```sh
-
 # install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -39,12 +38,10 @@ brew install mysql
 brew install redis
 brew install mongodb
 
-brew install nvm
-brew install rbenv
+brew install asdf
 brew install ruby-build
 brew install php
 brew install python
-
 
 brew install tree
 brew install awscli
@@ -66,33 +63,66 @@ Many softwares can be installed through
 process way simpler:
 
 ```sh
-# essential
-brew cask install alfred
-brew cask install firefox
-brew cask install licecap
-brew cask install qlimagesize
-brew cask install quicklook-json
-brew cask install sourcetree
-brew cask install vanilla
-brew cask install discord
-brew cask install grammarly
+# browsers
+brew cask install firefox-developer-edition
+brew cask install google-chrome-canary
+brew cask install google-chrome
 brew cask install opera
-brew cask install qlmarkdown
-brew cask install quicklookase
-brew cask install spotify
-brew cask install vlc
-brew cask install docker
-brew cask install imageoptim
-brew cask install psequel
-brew cask install qlstephen
+
+# editors
+brew cask install atom-beta
+brew cask install visual-studio-code-insiders
+brew cask install sublime-text-dev
+
+# dev
+brew cask install unity-hub
+brew cask install robo-3t
 brew cask install sequel-pro
-brew cask install steam
-brew cask install webpquicklook
-brew cask install dropbox
+brew cask install psequel
+brew cask install docker
+brew cask install dotnet
+brew cask install rowanj-gitx
+brew cask install sourcetree
+brew cask install imageoptim
+brew cask install insomnia
 brew cask install iterm2
-brew cask install qlcolorcode
-brew cask install qlvideo
+
+# utilities
+brew cask install alfred
+brew cask install appcleaner
+brew cask install spectacle
+brew cask install quicklook-csv
+brew cask install quicklook-json
+brew cask install webpquicklook
+brew cask install the-unarchiver
+brew cask install google-backup-and-sync
+brew cask install grammarly
+brew cask install transmission
+
+# general
+brew cask install spotify
+brew cask install steam
+brew cask install vlc
+
+# messengers
+brew cask install discord
+brew cask install telegram
 brew cask install skype
+brew cask install slack
+brew cask install whatsapp
+
+# fonts
+brew cask install font-hack
+brew cask install font-lato
+brew cask install font-noto-sans
+brew cask install font-open-sans
+brew cask install font-pt-sans
+brew cask install font-pt-serif
+brew cask install font-roboto
+brew cask install font-roboto-condensed
+brew cask install font-roboto-mono
+brew cask install font-roboto-slab
+brew cask install font-source-sans-pro
 ```
 
 ### 5. Borrow a few OSX settings from [mathiasbynens dotfiles](https://github.com/mathiasbynens/dotfiles)
